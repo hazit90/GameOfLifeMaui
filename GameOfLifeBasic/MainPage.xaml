@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:GameOfLifeBasic.Views"
+             x:Class="GameOfLifeBasic.MainPage">
+
+    <VerticalStackLayout
+        HorizontalOptions="Center"
+        >
+
+        <HorizontalStackLayout
+            Margin="20"
+            >
+            <Label Text="Rows: " />
+            <Entry
+                x:Name="rowsEntry"
+                Placeholder="10"
+                FontSize="Large"
+                Text="{Binding NumRows, Mode=TwoWay}"                
+                Keyboard="Numeric"
+                />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout
+            Margin="20"
+            >
+            <Label Text="Cols: " />
+            <Entry
+                x:Name="colsEntry"
+                Placeholder="10"
+                FontSize="Large"
+                Text="{Binding NumCols, Mode=TwoWay}"
+                Keyboard="Numeric"
+                />
+        </HorizontalStackLayout>
+
+        <Button
+            Margin="20"
+            Text="Start"
+            FontSize="Large"
+            Command="{Binding NavigateCommand}"
+            CommandParameter="{x:Type views:GameCanvas}"
+                />
+
+    </VerticalStackLayout>
+
+</ContentPage>
+

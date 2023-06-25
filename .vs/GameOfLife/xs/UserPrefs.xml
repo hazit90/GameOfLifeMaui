@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{27EB692A-A75C-4F57-A655-FC56102F82B6}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GameOfLifeBasic PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameOfLifeBasic/MainPage.xaml.cs">
+    <Files>
+      <File FileName="GameOfLifeBasic/MainPage.xaml" />
+      <File FileName="GameOfLifeBasic/Views/GameCanvas.xaml" />
+      <File FileName="../../../.nuget/packages/communitytoolkit.maui/5.2.0/readme.txt" />
+      <File FileName="GameOfLifeBasic/MauiProgram.cs" Line="13" Column="58" />
+      <File FileName="GameOfLifeBasic/MainPage.xaml.cs" Line="21" Column="28" NotebookId="1" />
+      <File FileName="GameOfLifeBasic/Views/GameCanvas.xaml.cs" Line="7" Column="1" NotebookId="1" />
+      <File FileName="GameOfLifeBasic/ViewModel/GameCanvasVM.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameOfLife" expanded="True">
+            <Node name="GameOfLifeBasic" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="AppIcon" expanded="True" />
+                <Node name="Splash" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="GameCanvas.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+</Properties>
